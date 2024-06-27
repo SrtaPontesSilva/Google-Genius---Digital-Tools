@@ -1,0 +1,129 @@
+/* Reset e estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333; /* Cor padrão para o texto */
+}
+
+/* Estilo do cabeçalho */
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+/* Estilo da navegação */
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center; /* Centraliza os itens da navegação */
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold; /* Deixa os links mais destacados */
+}
+
+/* Estilo do conteúdo principal */
+main {
+    padding: 2rem;
+}
+
+/* Estilo das seções */
+section {
+    margin-bottom: 2rem;
+    background-color: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra suave para destacar as seções */
+}
+
+/* Estilo dos títulos das seções */
+section h2 {
+    font-size: 2.5rem; /* Tamanho maior para destacar os títulos das seções */
+    margin-bottom: 1rem; /* Espaçamento inferior menor para os títulos das seções */
+    color: #4CAF50; /* Cor verde para os títulos das seções */
+}
+
+/* Estilo dos subtítulos das seções */
+section h3 {
+    font-size: 1.8rem; /* Tamanho um pouco menor para os subtítulos */
+    margin-bottom: 1rem;
+    color: #4CAF50; /* Cor verde para os subtítulos */
+}
+
+/* Estilo dos parágrafos */
+section p {
+    line-height: 1.6; /* Espaçamento entre linhas aumentado para melhor legibilidade */
+}
+
+/* Estilo das listas */
+section ul, section ol {
+    margin-bottom: 1rem; /* Espaçamento inferior menor para listas */
+}
+
+/* Estilo dos links dentro das seções */
+section a {
+    color: #4CAF50; /* Cor verde para links */
+    text-decoration: underline; /* Sublinhado para indicar links */
+}
+
+/* Estilo dos blocos de código */
+code {
+    background-color: #f0f0f0; /* Fundo cinza claro para blocos de código */
+    padding: 0.2rem 0.5rem;
+    border-radius: 4px;
+    font-family: Consolas, Monaco, monospace; /* Fonte monoespaçada para código */
+}
+
+/* Estilo das citações */
+blockquote {
+    background-color: #f9f9f9; /* Fundo cinza claro para citações */
+    padding: 1rem;
+    margin: 0;
+    border-left: 4px solid #4CAF50; /* Borda verde no lado esquerdo das citações */
+}
+
+/* Estilo dos elementos interativos */
+button, .button, input[type="submit"], input[type="reset"], input[type="button"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 0.8rem 1.2rem;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: opacity 0.3s ease-in-out; /* Adiciona transição suave */
+}
+
+/* Estilo de feedback visual para elementos interativos */
+button:hover, .button:hover, input[type="submit"]:hover, input[type="reset"]:hover, input[type="button"]:hover {
+    opacity: 0.8;
+}
+
+/* Estilo do rodapé */
+footer {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 0.5rem;
+    width: 100%;
+    border-top: 1px solid rgba(255, 255, 255, 0.1); /* Linha superior sutil */
+}
+
+/* Estilo adicional para imagens */
+img {
+    max-width: 100%; /* Imagens responsivas */
+    height: auto;
+    border-radius: 8px; /* Cantos arredondados para imagens */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra suave para imagens */
+}
